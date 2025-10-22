@@ -41,7 +41,7 @@ export default function App() {
   return (
     <main>
       <h1>Hola soy Kevin Marin - Aprendiz ADSO</h1>
-      <p>Espero aprender a implementar tecnologías en el desarrollo web</p>
+      <p>Espero aprender a implementar tecnologías en el desarrollo web Ejemplo</p>
       <p>Fecha y hora actual: {fecha}</p>
     </main>
   );
