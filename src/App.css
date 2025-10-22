@@ -40,3 +40,12 @@
 .read-the-docs {
   color: #888;
 }
+
+
+/* Estilo para el main */
+main {
+  background-color: #1084c7; /* Color de fondo */
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+}

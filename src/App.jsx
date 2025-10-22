@@ -34,5 +34,15 @@
 
 // export default App
 
-export default function App() { const fecha = new Date().toLocaleString();
-  return ( <main> <h1>Hola SENA</h1> <p>Fecha y hora actual: {fecha}</p> </main> ); }
+import './App.css';
+export default function App() {
+  const fecha = new Date().toLocaleString();
+
+  return (
+    <main>
+      <h1>Hola soy Kevin Marin - Aprendiz ADSO</h1>
+      <p>Espero aprender a implementar tecnologías en el desarrollo web</p>
+      <p>Fecha y hora actual: {fecha}</p>
+    </main>
+  );
+}
