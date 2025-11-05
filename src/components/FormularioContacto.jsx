@@ -19,7 +19,7 @@ export default function FormularioContacto({ onAgregar }) {
     e.preventDefault();
     if (!form.nombre || !form.telefono || !form.correo) return;
     onAgregar(form);
-    setForm({ nombre: "", telefono: "", correo: "", etiqueta: "" });
+    setForm({ nombre: "", telefono: "", correo: "", etiqueta: "", empresa: "" });
   };
 
   return (
@@ -47,6 +47,12 @@ export default function FormularioContacto({ onAgregar }) {
         value={form.etiqueta}
         onChange={onChange}
         placeholder="Etiqueta opcional"
+      />
+      <input
+        name="empresa"
+        value={form.empresa}
+        onChange={onChange}
+        placeholder="empresa"
       />
       <button className="btn-agregar">Agregar contacto</button>
     </form>
