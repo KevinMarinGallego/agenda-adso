@@ -77,11 +77,11 @@
 // aprendiz.saludar();
 // aprendiz.mostrarInfo();
 
-const aprendiz = {
-nombre: "Carolina",
-saludar() {
-console.log(`Hola, soy ${this.nombre}`);
-}
-};
+// const aprendiz = {
+// nombre: "Carolina",
+// saludar() {
+// console.log(`Hola, soy ${this.nombre}`);
+// }
+// };
 
-aprendiz.saludar(); 
+// aprendiz.saludar(); 

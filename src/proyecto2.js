@@ -1,16 +1,16 @@
-const aprendiz = {
-    nombre: "Kevin Marin",
-    ficha: 3169901,
-    notas: [5, 4.5, 2.8]
-};
+// const aprendiz = {
+//     nombre: "Kevin Marin",
+//     ficha: 3169901,
+//     notas: [5, 4.5, 2.8]
+// };
 
 
-console.log(`Aprendiz: ${aprendiz.nombre}, Ficha: ${aprendiz.ficha}`);
-console.log(`Notas: ${aprendiz.notas.join(", ")}`);
-const promedio = (aprendiz.notas[0] + aprendiz.notas[1] + aprendiz.notas[2]) / 3;
+// console.log(`Aprendiz: ${aprendiz.nombre}, Ficha: ${aprendiz.ficha}`);
+// console.log(`Notas: ${aprendiz.notas.join(", ")}`);
+// const promedio = (aprendiz.notas[0] + aprendiz.notas[1] + aprendiz.notas[2]) / 3;
 
-console.log(`Promedio: ${promedio.toFixed(2)}`);
-console.log(`Estado: ${promedio >= 3.5 ? "Aprobado" : "No aprobado"}`);
+// console.log(`Promedio: ${promedio.toFixed(2)}`);
+// console.log(`Estado: ${promedio >= 3.5 ? "Aprobado" : "No aprobado"}`);
 
 
 // const aprendiz = {

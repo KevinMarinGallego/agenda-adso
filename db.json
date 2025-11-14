@@ -1,0 +1,18 @@
+{
+  "contactos": [
+    {
+      "id": 1,
+      "nombre": "Gustavo",
+      "telefono": "3217532037",
+      "correo": "gabodorado@gmail.com",
+      "etiqueta": "profe"
+    },
+    {
+      "id": "70e1",
+      "nombre": "kevin marin",
+      "telefono": "3006477219",
+      "correo": "kevin@gmail.com",
+      "etiqueta": "El Jefe"
+    }
+  ]
+}
