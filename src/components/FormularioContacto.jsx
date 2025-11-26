@@ -4,7 +4,7 @@ import { useState } from "react";
 // Componente FormularioContacto
 // Recibe como props la función onAgregar (para crear un contacto)
 // y la variable cargandoDesdeApp (si quieres reutilizar estados desde App, opcional)
-function FormularioContacto({ onAgregar }) {
+export default function FormularioContacto({ onAgregar }) {
   // Estado principal del formulario: almacena los valores de cada campo
   const [form, setForm] = useState({
     nombre: "",
@@ -212,6 +212,3 @@ function FormularioContacto({ onAgregar }) {
     </form>
   );
 }
-
-// Exportamos el componente para usarlo en App.jsx
-export default FormularioContacto;
