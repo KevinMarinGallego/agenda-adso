@@ -13,6 +13,13 @@
       "telefono": "3006477219",
       "correo": "kevin@gmail.com",
       "etiqueta": "El Jefe"
+    },
+    {
+      "id": "53a3",
+      "nombre": "Carlos Santiz",
+      "telefono": "3121365478",
+      "correo": "carlosantis@gmail.com",
+      "etiqueta": "El inge"
     }
   ]
 }
